@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(2, 63, 84);
+}
+
+nav li {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+nav .submeno {
+    position: absolute;
+    background-color: rgb(81, 143, 198);
+    min-width: 50px;
+    border: 1px solid #ccc;
+    opacity: 0;
+    visibility: hidden;
+}
+nav .submeno li {
+    display: block;
+    text-align: left;
+}
+    
+nav .submeno li a {
+    display: block;
+    padding: 5px 8px;
+}
+nav li:hover .submeno {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+
+

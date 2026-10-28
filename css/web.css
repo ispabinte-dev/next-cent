@@ -1,0 +1,85 @@
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: inter, sans-serif;
+    color: #4d4d4d;
+    background-color: #f5f7fa;
+}
+
+/* Navbar */
+.navbar {
+    min-height: 92px;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #f5f7fa;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    text-decoration: none;
+    color: #263238;
+    font-size: 23px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+}
+
+.nav-links a,
+.login {
+    color: #263238;
+    font-size: 12px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nav-links a:hover,
+.login:hover {
+    color: #4caf50;
+}
+
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.login {
+    color: #4caf50;
+}
+
+.signup {
+    display: inline-block;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.signup {
+    padding: 10px 17px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.signup:hover {
+    background-color: #388e3c;
+}
